@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+div,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("https://www.salvioni-alomar.com/wp-content/uploads/2021/10/10-tradiciones-de-japon-que-desconocias.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  align-items: center;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+header .logo {
+  color: #f2f2f2;
+  font-size: 50px;
+  line-height: 180px;
+  float: left;
+  text-shadow: 3px 2px 1px black;
+}
+
+header nav {
+  float: right;
+  line-height: 200px;
+}
+
+header nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-shadow: 3px 2px 1px black;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 500ms ease;
+}
+
+header nav a:hover {
+  background: black;
+  border-radius: 50px;
+}
+
+article {
+  display: flex;
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 0 20px 0;
+  text-align: center;
+  max-width: 30%;
+  filter: opacity(70%);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+article img {
+  width: 100%;
+}
+
+article:hover {
+  transition: 0.5s ease;
+  filter: opacity(100%);
+}
+
+figure {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #036;
+}
+img {
+  max-height: 200px;
+}
+
+footer {
+  height: 100px;
+  background-color: #45474b;
+  padding: 100px 0;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-h1 {
+  color: #fff;
+}
+footer ul {
+  display: flex;
+  margin-bottom: 72px;
+  gap: 16px;
+}
+
+footer ul li {
+  width: 40px;
+  height: 40px;
+}
+
+footer ul li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+footer ul li a:hover,
+footer ul li a:focus {
+  background-color: darkblue;
+}
+
+footer ul li a svg {
+  fill: #fff;
+}
