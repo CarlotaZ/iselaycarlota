@@ -94,14 +94,14 @@ footer ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: rgb(24, 24, 24);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer ul li a:hover,
 footer ul li a:focus {
-  background-color: darkblue;
+  background-color: black;
 }
 
 footer ul li a svg {
