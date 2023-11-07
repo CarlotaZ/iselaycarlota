@@ -115,7 +115,7 @@ footer ul li a {
 
 footer ul li a:hover,
 footer ul li a:focus {
-  background-color: darkblue;
+  background-color: dark;
 }
 
 footer ul li a svg {
