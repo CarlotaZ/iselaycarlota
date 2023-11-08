@@ -3,12 +3,7 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-div,
-p,
-ul {
+h1,h2,h3,div,p,ul {
   margin: 0;
   padding: 0;
 }
