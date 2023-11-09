@@ -102,3 +102,18 @@ footer ul li a:focus {
 footer ul li a svg {
   fill: #fff;
 }
+
+table, th, td{
+  cellspacing: "10";
+  border: 2px solid black;
+  padding:20px;
+  width:40%;
+  margin-left: 5cm;
+  margin-bottom: 2cm;
+}
+th{
+  background-color: rgb(172, 163, 210)
+}
+td{
+  background-color: rgb(472, 163, 210)
+}
