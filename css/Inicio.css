@@ -116,3 +116,10 @@ footer ul li a:focus {
 footer ul li a svg {
   fill: #fff;
 }
+
+.video{
+  margin-left: 10cm;
+}
+.correo{
+  margin-left: 1cm;
+}
