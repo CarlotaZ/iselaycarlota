@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+   
+<meta charset="UTF-8">
+    
+    <
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+<title>Página con Enlaces</title>
+</head>
+<body>
+
+    
+
+<h1>Mi Página con Enlaces</h1>
+
+    <p>Ir a la <a href="https://carlotaz.github.io/iselaycarlota/index.html#nosotros">sección Nosotros</a>.</p>
+    
+   
+<p>Ir a la <a href="https://carlotaz.github.io/iselaycarlota/index.html#servicios">sección Servicios</a>.</p>
+    <!-- Agrega más enlaces según sea necesario -->
+
+
+
+</body
+</body>
+</html>
