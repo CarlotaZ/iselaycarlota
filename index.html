@@ -15,13 +15,28 @@
           <a href="./index.html">Inicio</a>
           <a href="./RealidadVirtual.html">Realidad Virtual</a>
           <a href="./Sorteo.html">Sorteo viaje</a>
-          <a href="./enlaces.html">Menú</a>
         </nav>
       </div>
     </header>
     <main>
+      
+
+    <nav class="indice">
+      
+      <ul>
+        <span style="cursor: pointer"></span>
+        <li><a href="#contenedor">Japon</a></li>
+        <li><a href="#video">Vídeo Japón</a></li>
+      </ul>
+
+    </nav>
+    <audio controls class="audio">
+      <source src="./media/musicajapon.mp3" type="audio/mp3">
+  </audio>
+  
+
       <section class="introduccion">
-        <div class="container">
+        <div id="contenedor" class="container">
           <h1 id="Japon">JAPÓN</h1>
           <ul class="intro-lista">
             <li>
@@ -47,7 +62,7 @@
             </li>
           </ul>
         </div>
-        <div class="video">
+        <div id="video">
         <video width="640" height="360" controls>
   <source src="./media/videojapon.mp4" type="video/mp4">
 </video>
