@@ -16,6 +16,7 @@ header {
   background-position: center;
   height: 200px;
   align-items: center;
+  cursor: crosshair;
 }
 
 .container {
@@ -127,7 +128,6 @@ footer ul li a svg {
 .indice{
   margin-left: 5cm;
   padding: 1cm;
-  cursor: crosshair;
 }
 .audio{
   margin-left: 5cm;
