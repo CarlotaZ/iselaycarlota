@@ -16,7 +16,6 @@ header {
   background-position: center;
   height: 200px;
   align-items: center;
-  cursor: crosshair;
 }
 
 .container {
@@ -53,6 +52,7 @@ header nav a {
   font-size: 20px;
   font-weight: bold;
   transition: all 500ms ease;
+  cursor: crosshair;
 }
 
 header nav a:hover {
