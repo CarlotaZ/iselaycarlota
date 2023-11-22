@@ -1,31 +1,63 @@
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="hols.css">
+  <script src="https://kit.fontawesome.com/ab93a12d4d.js" crossorigin="anonymous"></script>
 <title>Wed personal</title>
 </head>
 <body>
+  <hr size="10px" color="white" />
 <!--Introducción-->
-<h1 style="color:DodgerBlue;">ISELA </h1>
- <img src="img/iselafoto.jpg" alt="libros" style="width:200px;height:100px;">
-<p>Esta es mi página personal. En la cual voy a hablar sobre mí y mis gustos para que de esta forma puedas conocerme mejor.</p>
+<h1>ISELA <i class="fa-solid fa-sack-dollar"></i></h1> 
+<img src="img/iselafoto.jpg" alt="yo" style="width:100px;height:200px;">
+  <p> Esta es <b> mi página personal.</b> En la cual voy a hablar sobre mí y mis gustos para que de esta forma puedas conocerme mejor.</p>
+  <svg id="hols">
+  <polygon  
+  points="100,10 40,198 190,78 10,78 160,198">
+    <animate 
+    atributeName="points"
+    from="100,10 40,198 190,78 10,78 160,198"
+    to="100,10 40,198 190,78 10,78 160,198"
+    />
+  </polygon> 
+</svg>
+
+  <!-- Indice -->
+ <div class="indice">
+<p class="indice">Indice</p>
+    <ul class="primer titulo">
+        <li><a href="#Hobbies">Hobbies</a>
+            <ul>
+            <li><a href="#deportes">Deportes favoritos</a></li>
+            <li><a href="#gustos"> Gustos</a></li>
+            </ul>
+        </li>
+        <li><a href="#Lugares">Lugares Para Viajar</a></li>
+    </ul>
+</div>
+  <!-- menu -->
+ <ul id="menu">
+   <h4> Menú
+   <li> <p>Si quires saber más sobre mis otras paginas web pulsa <a href="segunda página.html"> aquí </a> </p>
+  </ul>
   <!-- Lo que me gusta hacer en mi tiempo libre -->
-<h2 style="border: 2px solid Tomato;">Hobbies</h2>
-  <ul> <h3> Deportes favoritos: </h3>
+<h2 id="Hobbies" > Hobbies</h2>
+  <ul> <h3 id=deportes> Deportes favoritos: </h3>
 <li> <a href="https://es.wikipedia.org/wiki/Baloncesto"> Baloncesto </a> </li> 
 <li> <a href="https://es.wikipedia.org/wiki/Voleibol"> Voleibol </a> </li>
 <li> <a href="https://es.wikipedia.org/wiki/Atletismo"> Atletismo </a> </li>
   <p>                  </p>
 <a href="https://www.publico.es/deportes">
 <img src="https://www.imdsg.es/wp-content/uploads/fondo.jpg" alt="deportes" style="width:200px;height:100px;">
-  </a>  <p> (Si pulsas la imagen te llevará a las noticias más recientes del deporte).</p>
+  </a> <br> <i> (Si pulsas la imagen te llevará a las noticias más recientes del deporte).</i>
 </ul> 
-  <ul> <h3>Gustos:</h3> 
+  <ul> <h3 id=gustos>Gustos:</h3> 
     <li> Leer </li>
     <li> Escuchar música </li>
     <img src="img/libros.jpg" alt="libros" style="width:200px;height:100px;">
    <!-- Tabla con lugares bonitos a los que me gustaría viajar -->
-<table cellspacing="10" border="2px" width=100%> 
+<table> 
  
-  <h2> LUGARES DONDE QUIERO VIAJAR </h2>
+  <h2 id ="Lugares"> Lugares Para Viajar </h2>
   <tr>
    
     <th><span style="color: red;">PAIS</span></th>
@@ -56,6 +88,10 @@
     <td>Osaka</td>
   </tr>
 </table>
+    <footer>
+      <address>
+        Contáctame <a href= "mailto:Iselap.gonpri@educa.jcyl.es"> aquí. </a>
+        </footer>
     
 </body>
 </html>
