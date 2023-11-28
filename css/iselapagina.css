@@ -71,12 +71,14 @@ body{
     background-color: rgb(472, 163, 210)
   }
   #hols {
-    stroke: #0000ff;
+     stroke: #0000ff;
      stroke-width:5;
      fill:purple;
      fill-rule:evenodd;
      float: right;
      animation: casa 4s infinite ease-in;
+     height: 510px;
+     width: 400px;
   }
   
 @keyframes casa {
