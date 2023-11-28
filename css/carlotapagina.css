@@ -41,3 +41,23 @@ nav li :hover{
 h2{
     border: white 3px solid;
 }
+ #poligono {
+    stroke: blue;
+     stroke-width:5;
+     fill:grey;
+     fill-rule:evenodd;
+     float: right;
+     animation: animacion 7s infinite ease-in;
+  }
+  
+@keyframes animacion {
+  0% {
+    transform: translateX(0px);
+  }
+ 50% {
+    transform: translateX(100px);
+ }
+ 100% {
+  transform: translateX(-100px);
+ }
+}
