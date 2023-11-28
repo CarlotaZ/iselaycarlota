@@ -42,12 +42,14 @@ h2{
     border: white 3px solid;
 }
  #poligono {
-    stroke: blue;
+     stroke: blue;
      stroke-width:5;
      fill:grey;
      fill-rule:evenodd;
      float: right;
-     animation: animacion 7s infinite ease-in;
+     animation: animacion 3s infinite ease-in;
+     height: 510px;
+     width: 400px;
   }
   
 @keyframes animacion {
