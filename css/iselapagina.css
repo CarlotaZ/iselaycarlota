@@ -10,6 +10,21 @@
     width: 50%;
     }
 }
+  
+  @media screen and (max-width:800px){  
+  body{
+    height: 100%;
+  }
+  .poligono{
+    height: 50%;
+    stroke: #0000ff;
+    }
+  
+  img{
+    width: 50%;
+    }
+
+  }
 
 body{
     margin:50px;
