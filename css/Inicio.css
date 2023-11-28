@@ -1,4 +1,9 @@
-
+@media screen and (min-width:800px){  
+  body{
+    height: 100%;
+    
+  }
+}
 
 body {
   margin: 0;
