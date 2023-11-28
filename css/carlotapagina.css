@@ -2,12 +2,12 @@
   body{
     height: 100%;
   }
-    poligono{
+  .poligono{
     height: 100%;
     stroke: #yellow;
     }
   
-    img{
+  img{
     width: 50%;
     }
 }
