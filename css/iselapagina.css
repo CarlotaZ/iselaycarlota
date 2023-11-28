@@ -1,3 +1,14 @@
+@media screen and (min-width:800px){  
+  body{
+    height: 100%;
+  }
+    #Hols{
+    height: 100%;
+    stroke: #yellow;
+    }
+    img{
+    width: 50%;
+    }
 body{
     margin:50px;
     background-image: url(https://fondosdepantallaymuchomas.files.wordpress.com/2012/02/21.jpg);
