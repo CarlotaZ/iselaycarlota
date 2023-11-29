@@ -83,6 +83,7 @@ header nav a:hover {
   border-radius: 10px;
 }
 footer {
+  position: absolute;
   height: 100px;
   background-color: #45474b;
   padding: 100px 0;
