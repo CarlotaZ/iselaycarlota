@@ -1,3 +1,10 @@
 .carlotaisela{
   display: flex;
 }
+#foto1{
+ display: inline-block;
+}
+
+#foto2{
+display: inline-block;
+}
