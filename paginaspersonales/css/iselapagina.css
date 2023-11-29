@@ -1,0 +1,111 @@
+@media screen and (min-width:800px){  
+  body{
+    height: 100%;
+  }
+  .Hols{
+    height: 100%;
+    stroke: #yellow;
+    }
+    img{
+    width: 50%;
+    }
+}
+  
+  @media screen and (max-width:800px){  
+  body{
+    height: 100%;
+  }
+  .poligono{
+    height: 50%;
+    stroke: #0000ff;
+    }
+  
+  img{
+    width: 50%;
+    }
+
+  }
+
+body{
+    margin:50px;
+    background-image: url(https://fondosdepantallaymuchomas.files.wordpress.com/2012/02/21.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .indice {
+     border: 3px solid rgb(255, 0, 0);
+     display: table;
+     font-size: 95%;
+     margin-bottom: 50px;
+     padding: 10px;
+     width: auto;
+  }
+  #menu{
+     border: 3px solid rgb(967, 607, 053);
+     display: table;
+     font-size: 95%;
+     margin-bottom: 50px;
+     padding: 10px;
+     width: auto;
+  }
+  .primer titulo {
+     text-align: center;
+     font-weight: bold;
+  }
+  .idc-box li, .idc-box ul, .idc-box ul li{
+     list-style:square;
+  }
+  h1{
+  color:#066699;
+  font-size:40px;
+  font-family: Cursive, serif; 
+  text-shadow: 5px 5px grey;
+  }
+  
+  #Hobbies{
+    font-size: 30px;
+    font-family: Monospace;
+    border-style: solid; 
+    border-color: rgb(165, 0, 203);
+  }
+  #Lugares{
+    font-size: 30px;
+    font-family: Courier New, Time New Roman,serif;
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  table, th, td{
+    cellspacing: "10";
+    border: 2px solid black;
+    padding:20px;
+    width:40%;
+  }
+  th{
+    background-color: rgb(172, 163, 210)
+  }
+  td{
+    background-color: rgb(472, 163, 210)
+  }
+  #hols {
+     stroke: #0000ff;
+     stroke-width:5;
+     fill:purple;
+     fill-rule:evenodd;
+     float: right;
+     animation: casa 4s infinite ease-in;
+     height: 510px;
+     width: 400px;
+  }
+  
+@keyframes casa {
+  0% {
+    transform: translateY(0px);
+  }
+ 50% {
+    transform: translateY(100px);
+ }
+ 100% {
+  transform: translateY(-100px);
+ }
+}
